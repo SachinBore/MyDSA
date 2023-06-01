@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
+// Time complexity is O(n)
+// Space Complexity is O(1)
 int solve(int n) {
 
 	double res = 0;
