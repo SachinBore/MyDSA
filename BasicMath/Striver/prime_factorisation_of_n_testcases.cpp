@@ -2,7 +2,7 @@
 using namespace std;
 
 // spf -> smallest prime factors
-int n = 25;
+int n = 1000000;
 vector<int> spf(n + 1);
 
 void createSpf() {
