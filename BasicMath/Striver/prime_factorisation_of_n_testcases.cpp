@@ -5,7 +5,7 @@ using namespace std;
 int n = 1000000;
 vector<int> spf(n + 1);
 
-void createSpf() {
+void createSieve() {
 	for (int i = 1; i <= n; i++) {
 		spf[i] = i;
 	}
@@ -31,7 +31,7 @@ int main() {
 	freopen("outputmath.txt", "w", stdout);
 #endif
 	// creating prime factorisation array -> O(Nlog(logN))
-	createSpf();
+	createSieve();
 	int t; cin >> t;
 	while (t--) {
 		int n; cin >> n;
